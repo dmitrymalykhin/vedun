@@ -65,8 +65,8 @@
 	-o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 	transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 	-webkit-transform: skewX(20deg) !important;
-	    -ms-transform: skewX(20deg) !important;
-	        transform: skewX(20deg) !important;
+	-ms-transform: skewX(20deg) !important;
+	transform: skewX(20deg) !important;
 }
 .modal .close-modal {
 	position: absolute;
@@ -90,8 +90,8 @@
 	width: 2.5em;
 	height: 3em;
 	-webkit-transform: skewX(20deg) !important;
-	    -ms-transform: skewX(20deg) !important;
-	        transform: skewX(20deg) !important;
+	-ms-transform: skewX(20deg) !important;
+	transform: skewX(20deg) !important;
 	top: -15px;
 	position: relative;
 	right: 5px;
@@ -108,8 +108,8 @@
 	-o-transition-delay: 0.3s;
 	transition-delay: 0.3s;
 	-webkit-transform: skewX(-20deg) !important;
-	    -ms-transform: skewX(-20deg) !important;
-	        transform: skewX(-20deg) !important;
+	-ms-transform: skewX(-20deg) !important;
+	transform: skewX(-20deg) !important;
 }
 .modal.active {
 	visibility: visible;
@@ -174,11 +174,11 @@
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 .call-form-button-send:hover {
 	-webkit-box-shadow: 8px 10px 19px 1px rgba(23, 49, 80, 0.5);
@@ -199,7 +199,7 @@
 	display: inline-block;
 	padding: 2px;
 	-ms-transform: rotate(-45deg);
-	    transform: rotate(-45deg);
+	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	right: -2px;
 	top: -1.2083px;
@@ -253,11 +253,11 @@
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 .sp-btn:hover {
 	-webkit-box-shadow: 8px 10px 19px 1px rgba(23, 49, 80, 0.5);
@@ -278,7 +278,7 @@
 	display: inline-block;
 	padding: 2px;
 	-ms-transform: rotate(-45deg);
-	    transform: rotate(-45deg);
+	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	right: -2px;
 	top: -2px;
@@ -316,17 +316,17 @@
 	width: 150px;
 	left: -168px;
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
 	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 	bottom: -20px;
 	z-index: 1;
 	-webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.1);
@@ -341,11 +341,13 @@
 	width: 210px;
 	height: 26px;
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	top: 60px;
 	left: -36px;
-	rotate: 54deg;
+		transform: rotate( 54deg);
+-moz-transform: rotate( 54deg);
+-webkit-transform: rotate( 54deg);
 }
 .bg-close{
 	position: absolute;
@@ -354,17 +356,17 @@
 	width: 150px;
 	right: -168px;
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
 	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 	top: -20px;
 	z-index: 1;
 	-webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.1);
@@ -379,11 +381,13 @@
 	width: 210px;
 	height: 26px;
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	top: 60px;
 	right: -34px;
-	rotate: 54deg;
+	transform: rotate( 54deg);
+-moz-transform: rotate( 54deg);
+-webkit-transform: rotate( 54deg);
 }
 .bg-close .close-modal {
 
@@ -392,8 +396,8 @@
 	width: 56px;
 	height: 16px;
 	-webkit-transform: skewX(20deg);
-	    -ms-transform: skewX(20deg);
-	        transform: skewX(20deg);
+	-ms-transform: skewX(20deg);
+	transform: skewX(20deg);
 }
 .send-btn {
 	padding: 10px 30px;
@@ -402,8 +406,8 @@
 	font-size: 16px;
 	font-family: 'Gilroy-SemiBold';
 	-webkit-transform: skewX(20deg);
-	    -ms-transform: skewX(20deg);
-	        transform: skewX(20deg);
+	-ms-transform: skewX(20deg);
+	transform: skewX(20deg);
 	cursor: pointer;
 	-webkit-box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.23);
 	box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.23);
@@ -411,8 +415,8 @@
 }
 .send-btn span{
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	display: block;
 }
 .modal__conf {
@@ -427,8 +431,8 @@
 	font-size: 16px;
 	font-family: 'Gilroy-SemiBold';
 	-webkit-transform: skewX(20deg);
-	    -ms-transform: skewX(20deg);
-	        transform: skewX(20deg);
+	-ms-transform: skewX(20deg);
+	transform: skewX(20deg);
 	cursor: pointer;
 	-webkit-box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.23);
 	box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.23);
@@ -438,8 +442,8 @@
 }
 .close-modal-button span{
 	-webkit-transform: skewX(-20deg);
-	    -ms-transform: skewX(-20deg);
-	        transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
 	display: block;
 }
 .sp-modal .modal-bg__image:after {
@@ -505,7 +509,6 @@
 @media screen and (max-width: 576px){
 	.modal {
 		left: 0;
-		
 		-webkit-overflow-scrolling: touch;
 		border-radius: 0;
 		-webkit-transform: scale(1.1);
@@ -517,13 +520,13 @@
 		padding: 70px 20px 45px 20px;
 		position: fixed;
 		-webkit-transform: skewX(0deg) !important;
-		    -ms-transform: skewX(0deg) !important;
-		        transform: skewX(0deg) !important;
+		-ms-transform: skewX(0deg) !important;
+		transform: skewX(0deg) !important;
 	}
 	.modal .modal-content {
-				-webkit-transform: skewX(0deg) !important;
-				    -ms-transform: skewX(0deg) !important;
-				        transform: skewX(0deg) !important;
+		-webkit-transform: skewX(0deg) !important;
+		-ms-transform: skewX(0deg) !important;
+		transform: skewX(0deg) !important;
 	}
 	.modal .close-modal {
 		right: 0;
@@ -531,19 +534,19 @@
 	}
 	.modal .close-modal svg {
 		-webkit-transform: skewX(0deg) !important;
-		    -ms-transform: skewX(0deg) !important;
-		        transform: skewX(0deg) !important;
+		-ms-transform: skewX(0deg) !important;
+		transform: skewX(0deg) !important;
 		top: 0;
 		width: 1.5em;
-height: 1.5em;
+		height: 1.5em;
 	}
 	.modal-m__logo {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-webkit-box-pack: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
 		margin-top: 25px;
 	}
 	.modal-m__logo img {
